@@ -173,10 +173,10 @@ main(int ac, const char* av[])
 
     string deamon_url {*deamon_url_opt};
 
-    if (testnet && deamon_url == "http://127.0.0.1:42462")
-        deamon_url = "http://127.0.0.1:29994";
-    if (stagenet && deamon_url == "http://127.0.0.1:42462")
-        deamon_url = "http://127.0.0.1:39994";
+    if (testnet && deamon_url == "http://127.0.0.1:52922")
+        deamon_url = "http://127.0.0.1:53922";
+    if (stagenet && deamon_url == "http://127.0.0.1:52922")
+        deamon_url = "http://127.0.0.1:54922";
 
     uint64_t mempool_info_timeout {5000};
 

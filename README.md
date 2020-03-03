@@ -62,7 +62,7 @@ sudo apt install git build-essential cmake pkg-config libboost-all-dev libssl-de
 # go to home folder
 cd ~
 
-git clone --recursive https://github.com/ElSamaritan/evolution
+git clone --recursive https://github.com/evolution-project/evolution
 
 cd evolution/
 
@@ -80,7 +80,7 @@ as follows:
 cd ~
 
 # download the source code
-git clone https://github.com/ElSamaritan/blockchain-explorer.git
+git clone https://github.com/evolution-project/explorer-evo.git
 
 # enter the downloaded sourced code folder
 cd explorer-evolution
