@@ -83,7 +83,7 @@ cd ~
 git clone https://github.com/evolution-project/explorer-evo.git
 
 # enter the downloaded sourced code folder
-cd explorer-evolution
+cd explorer-evo
 
 # make a build folder and enter it
 mkdir build && cd build
